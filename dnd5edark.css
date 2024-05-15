@@ -613,3 +613,11 @@ div#customcss-settings-form:not(:has(div.window-resizable-handle)) {
 .monks-tokenbar .sheet select {
     color: white !important;
 }
+
+.chat-message.message.flexcol.whisper:has(.xmidi-qol-flex-container) table tbody tr:nth-child(odd) {
+    background-color: rgb(50 50 50);
+}
+
+.chat-message.message.flexcol.whisper:has(.xmidi-qol-flex-container) table tbody tr:nth-child(even) {
+    background-color: rgb(24 24 24);
+}
