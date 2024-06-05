@@ -621,3 +621,15 @@ div#customcss-settings-form:not(:has(div.window-resizable-handle)) {
 .chat-message.message.flexcol.whisper:has(.xmidi-qol-flex-container) table tbody tr:nth-child(even) {
     background-color: rgb(24 24 24);
 }
+
+.chat-message.message.flexcol.whisper:has(.xmidi-qol-flex-container) select, .chat-message.message.flexcol.whisper:has(.xmidi-qol-flex-container) button {
+    background-color: rgb(25 25 25);
+}
+
+.journal-sheet .journal-entry-pages {
+    color: var(--5edark-rgb-text-white-3) !important;
+}
+
+.dice-tooltip .dice-rolls .roll.discarded, .dice-tooltip .dice-rolls .roll.rerolled {
+    color: black !important;
+}
