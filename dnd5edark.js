@@ -17,7 +17,7 @@ class Dnd5eDark {
 				name: "Activate Foundry wide Dark Mode?", // Change for description
 				// hint: "Hint?" // uncomment this line for a small description text/hint
 				config: true,
-				default: false,
+				default: true,
 				type: Boolean,
 				scope: 'user',
 				onChange: data => {
