@@ -15,9 +15,9 @@
 		"dnd5edark.js"
 	],
 	"packs": [],
-	"url": "https://github.com/stryxin/dnd5edark-foundryvtt",
-	"manifest": "https://raw.githubusercontent.com/stryxin/dnd5edark-foundryvtt/master/module.json",
-	"download": "https://github.com/Stryxin/dnd5edark-foundryvtt/raw/master/dnd5e-dark-mode.zip",
+	"url": "https://github.com/ThreeHats/dnd5edark-foundryvtt-mobile",
+	"manifest": "https://raw.githubusercontent.com/ThreeHats/dnd5edark-foundryvtt-mobile/master/module.json",
+	"download": "https://github.com/ThreeHats/dnd5edark-foundryvtt-mobile/raw/master/dnd5e-dark-mode.zip",
 	"compatibleCoreVersion": "0.7.9",
 	"minimumCoreVersion": "0.6.0"
 }

@@ -203,9 +203,9 @@
 	background: var(--5edark-rgb-bg-black);
 }
 
-.dark-mode #chat-log .message.whisper {
+/* .dark-mode #chat-log .message.whisper {
 	background: #101a27;
-}
+} */
 
 .dark-mode #chat-log .message {
 	background: url("ui/parchment_dark.jpg") repeat;

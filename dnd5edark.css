@@ -476,3 +476,160 @@
 .dark-mode .dnd5e.sheet .items-list .items-header {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
+
+/*custom changes*/
+* {
+	scrollbar-width: auto !important;
+}
+
+.dnd5e2.chat-card .description {
+    background: rgb(24, 24, 24) !important;
+}
+
+:is(.chat-popout, #chat-log) .message .dnd5e2.evaluation .target {
+    background: rgb(50, 50, 50) !important;
+}
+
+.rsr-title > dnd5e-icon {
+    fill: white;
+}
+
+:is(.chat-popout, #chat-log) .message .message-header .subtitle {
+    color: var(--color-text-dark-primary) !important;
+}
+
+.directory-list {
+	text-shadow: -1px 1px 0 #000,
+				1px 1px 0 #000,
+				1px -1px 0 #000,
+				-1px -1px 0 #000;
+}
+
+.CodeMirror-scroll {
+	background-color:	#D3D3D3;
+}
+
+.monks-enhanced-journal .directory-sidebar {
+	border-left: 0;
+}
+:root {
+--mej-header-background: rgba(220, 220, 220, 0);
+--mej-header-color: white;
+--mej-header-tab-background: rgba(255, 255, 240, 0);
+--mej-header-border-color: rgba(192, 192, 192, 0);
+--mej-header-nav-background: rgba(233, 231, 225, 0);
+--mej-footer-background: rgba(233, 231, 225, 0);
+--mej-footer-border: rgba(192, 192, 192, 0);
+--mej-cream: rgba(255, 255, 240, 0);
+--mej-light-2: 0;
+}
+
+.monks-enhanced-journal .enhanced-journal-header .bookmark-bar .bookmark-button > div {
+	color: white;
+}
+
+.sheet.journal-entry .journal-entry-content{
+	background: 0;
+	background-color: black;
+}
+
+option, optgroup {
+	background-color: black;
+}
+
+.always-hp {
+	z-index: 100 !important;
+}
+
+li > button, .prosemirror menu .pm-dropdown > ul, .prosemirror menu .pm-dropdown li, .prosemirror menu .pm-dropdown ul {
+	background: #161616 !important;
+}
+
+li > button:hover, .prosemirror menu .pm-dropdown > i, .prosemirror menu .pm-dropdown > ul, .prosemirror menu .pm-dropdown li, .prosemirror menu .pm-dropdown ul {
+	color: white !important;
+}
+
+input{
+    color: white !important;
+}
+
+option {
+	color: white !important;
+}
+
+optgroup {
+	color: white !important;
+}
+.monks-tokenbar .sheet .items-list .item-name h3, .monks-tokenbar .sheet .items-list .item-name h4 {
+	color: white !important;
+}
+
+.monks-common-display .sheet .items-list .item-name h3, .monks-common-display .sheet .items-list .item-name h4 {
+	color: white;
+}
+app > window-app > always-hp > element.style {
+	height: auto !important;
+}
+div.picker_editor > input {
+	color: black !important;
+}
+
+.dnd5e2 .midi-buttons button {
+    background: none !important;
+}
+
+:is(.chat-popout, #chat-log) .message .message-header .title {
+    color: lightgray !important;
+}
+
+:is(.chat-popout, #chat-log) .message .message-header .subtitle {
+    color: lightgray !important;
+}
+
+.monks-tokenbar.chat-card .card-header h3 {
+    color: lightgray !important;
+}
+
+#requestsavingthrow .request-grid > div {
+    color: lightgray !important;
+}
+
+.item-piles-even-color:nth-child(even) {
+    background-color: #252525 !important;
+}
+
+div#customcss-settings-form:not(:has(div.window-resizable-handle)) {
+    width: 100dvw !important;
+}
+
+.dnd5e .inventory-element .inventory-list .item-controls [data-tooltip="Not Equipped"], .dnd5e .inventory-element .inventory-list .item-controls [data-tooltip="Unprepared"] {
+    color: #363636 !important;
+}
+
+.extended-combat-hud .ability-menu ul {
+    font-size: 1.7rem;
+}
+
+.monks-tokenbar .sheet select {
+    color: white !important;
+}
+
+.chat-message.message.flexcol.whisper:has(.xmidi-qol-flex-container) table tbody tr:nth-child(odd) {
+    background-color: rgb(50 50 50);
+}
+
+.chat-message.message.flexcol.whisper:has(.xmidi-qol-flex-container) table tbody tr:nth-child(even) {
+    background-color: rgb(24 24 24);
+}
+
+.chat-message.message.flexcol.whisper:has(.xmidi-qol-flex-container) select, .chat-message.message.flexcol.whisper:has(.xmidi-qol-flex-container) button {
+    background-color: rgb(25 25 25);
+}
+
+.journal-sheet .journal-entry-pages {
+    color: var(--5edark-rgb-text-white-3) !important;
+}
+
+.dice-tooltip .dice-rolls .roll.discarded, .dice-tooltip .dice-rolls .roll.rerolled {
+    color: black !important;
+}
